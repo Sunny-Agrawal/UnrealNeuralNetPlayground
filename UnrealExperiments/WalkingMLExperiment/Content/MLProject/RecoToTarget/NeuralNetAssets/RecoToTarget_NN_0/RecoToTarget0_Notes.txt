@@ -1,0 +1,6 @@
+-5 layers (3 hidden)
+-128 neurons per hidden layer
+
+
+Checkpoint 1 - issue with disappearing agents around 1 hour into training and subsequent training while afk messed up(?) the model. Pawns now roll to their left.
+Reward values went from around -20 to around -200 when agents started disappearing. Will implement function to stop training if reward values indicate training issues.
